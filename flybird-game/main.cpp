@@ -4,8 +4,6 @@
 #include<stdlib.h>
 #include<string.h>
 #include <windows.h>
-#include <time.h>
-
 #define SCREEN_WIDTH 90
 #define SCREEN_HEIGHT 26
 #define WIN_WIDTH 70
@@ -255,7 +253,6 @@ int main()
 { // at first we want to set cursor of the game
 	setcursor(0,0);
 
-	srand( (unsigned)time(NULL));
 
 /// THE GAME
 // print name of game and options to user
